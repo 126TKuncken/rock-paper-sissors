@@ -13,7 +13,7 @@ function playGame(userChoice) {
     document.getElementById('result').innerText = `Result: ${result}`;
 }
 
-function determineWinner(userChoice, computerChoice) {
+function getElementById ( userchoice, computerchoice) {
     if (userChoice === computerChoice) {
         return 'It\'s a tie!';
     }
